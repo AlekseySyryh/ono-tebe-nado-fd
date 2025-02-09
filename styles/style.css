@@ -14,11 +14,13 @@
   font-size: 18px;
   font-weight: 400;
   list-style-type: circle;
+  justify-self: start;
+  margin-left: 50px;
 }
 
 .logo {
-  width: 124px;
-  height: 95px;
+  width: 129px;
+  height: 105px;
 }
 
 .no_marker {
@@ -29,4 +31,6 @@
   display: flex;
   flex-direction: column;
   width: 210px;
+  justify-self: end;
+  margin-right: 50px;
 }

@@ -1,34 +1,32 @@
-.header 
-{
-  display: flex;
+.header {
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
   align-items: center;
-  justify-content: space-around;
-  height: 239px;
+  justify-items: center;
+  height: 293px;
+  text-underline-offset: 4px;
 }
 
-.menu 
-{
+.menu {
   display: flex;
   justify-content: space-around;
-  gap: 50px;
+  gap: 32px;
   font-size: 18px;
   font-weight: 400;
   list-style-type: circle;
 }
 
-.no_marker
-{
+.logo {
+  width: 124px;
+  height: 95px;
+}
+
+.no_marker {
   list-style-type: none;
 }
 
-.logo
-{
-  width: 148px;
-  height: 105px;
-}
-
-.address
-{
+.address {
   display: flex;
   flex-direction: column;
+  width: 210px;
 }

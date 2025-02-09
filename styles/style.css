@@ -30,7 +30,7 @@
 .cover_header {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   padding: 165px 50px 56px 50px;
   font-size: 100px;
   line-height: 115px;
@@ -48,11 +48,24 @@
 }
 
 .description {
-  margin: 50px;
+  padding: 20px 50px;
   display: flex;
   flex-direction: row;
   font-size: 22px;
   line-height: 28px;
+  word-spacing: 17px;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: lighter;
+}
+
+.button {
+  border-color: rgb(255, 255, 255);
+  border-width: 1px;
+  border-style: solid;
+  padding: 11.5px 31.5px;
+  color: rgb(255, 255, 255);
+  background: transparent;
 }
 
 .nav {

@@ -5,6 +5,12 @@
   justify-items: center;
   height: 293px;
   text-underline-offset: 4px;
+  line-height: 24px;
+}
+
+.nav {
+  justify-self: start;
+  margin-left: 50px;  
 }
 
 .menu {
@@ -14,8 +20,6 @@
   font-size: 18px;
   font-weight: 400;
   list-style-type: circle;
-  justify-self: start;
-  margin-left: 50px;
 }
 
 .logo {
@@ -32,5 +36,5 @@
   flex-direction: column;
   width: 210px;
   justify-self: end;
-  margin-right: 50px;
+  margin-right: 80px;
 }

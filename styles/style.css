@@ -30,7 +30,7 @@
 .cover_header {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 20px;
   padding: 165px 50px 56px 50px;
   font-size: 100px;
   line-height: 115px;

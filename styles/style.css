@@ -47,10 +47,11 @@
 }
 
 .description {
-  padding: 20px 50px;
+  padding: 50px;
   display: flex;
   flex-direction: row;
   font-size: 22px;
+  font-weight: 400px;
   line-height: 28px;
   word-spacing: 17px;
   justify-content: space-between;
@@ -61,7 +62,7 @@
   border-color: rgb(255, 255, 255);
   border-width: 1px;
   border-style: solid;
-  padding: 11.5px 31.5px;
+  padding: 10.5px 46.5px;
   color: rgb(255, 255, 255);
   background: transparent;
 }

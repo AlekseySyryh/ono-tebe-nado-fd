@@ -39,14 +39,13 @@
 
 .nav {
   justify-self: start;
-  margin-left: 50px;  
+  margin-left: 50px;
 }
 
 .menu {
   display: flex;
   justify-content: space-around;
   gap: 32px;
-
   list-style-type: circle;
 }
 
@@ -226,11 +225,11 @@
   gap: 24px;
 }
 
-.about_article_right_margin{
+.about_article_right_margin {
   margin-right: 5px; /*не очень, но в макете так*/
 }
 
-.menu_bottom{
+.menu_bottom {
   display: flex;
   flex-direction: column;
   align-items: center;

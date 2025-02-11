@@ -29,6 +29,14 @@
   grid-template-columns: 1fr 2fr;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
 .nav {
   justify-self: start;
   margin-left: 50px;  
@@ -54,9 +62,9 @@
 .address {
   display: flex;
   flex-direction: column;
-  width: 210px;
+  width: 240px;
   justify-self: end;
-  margin-right: 80px;
+  margin-right: 50px;
 }
 
 .overlay {
@@ -209,7 +217,6 @@
 
 .about_article {
   margin-top: 100px;
-  font-family: Raleway;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -221,4 +228,26 @@
 
 .about_article_right_margin{
   margin-right: 5px; /*не очень, но в макете так*/
+}
+
+.menu_bottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.13px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  width: 240px;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
 }
